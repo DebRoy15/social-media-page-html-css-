@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h3>Registration form</h3>
+      <form>
+        <div class="input_common">
+          <label for="name">Name</label>
+          <input type="text" />
+        </div>
+
+        <div class="input_common">
+          <label for="name">Email</label>
+          <input type="email" />
+        </div>
+
+        <div class="input_common">
+          <label for="name">Password</label>
+          <input type="password" />
+        </div>
+
+        <div class="input_common">
+          <p class="gender_title">Gender</p>
+          <div class="gender">
+            <input
+              class="gender_option"
+              type="radio"
+              id="male"
+              name="gender"
+              value="male"
+            />
+            <label class="gender_name" for="male">Male</label><br />
+            <input
+              class="gender_option"
+              type="radio"
+              id="female"
+              name="gender"
+              value="female"
+            />
+            <label class="gender_name" for="female">Female</label><br />
+            <input
+              class="gender_option"
+              type="radio"
+              id="other"
+              name="gender"
+              value="other"
+            />
+            <label class="gender_name" for="other">Other</label>
+          </div>
+        </div>
+
+        <div class="input_common">
+          <label for="name">Date of Birth</label>
+          <input type="date" name="" id="" />
+        </div>
+
+        <div class="input_common">
+          <label for="name">Profile picture</label>
+          <input type="file" name="" id="" />
+        </div>
+
+        <div class="input_common">
+          <label for="name">Phone No</label>
+          <input type="tel" name="" id="" />
+        </div>
+
+        <div class="input_common">
+          <label for="description">Address</label>
+          <textarea class="textarea"></textarea>
+        </div>
+
+        <div class="input_common">
+          <label class="check" for="name"
+            ><input type="checkbox" /> <span class="checkmark"></span>
+          </label>
+          <p>Agreed to terms and conditions</p>
+        </div>
+
+        <div class="input_common">
+          <input type="submit" value="register" class="btn" />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
